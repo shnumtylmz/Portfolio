@@ -4,9 +4,9 @@ import image from "../assets/profile-pic.png";
 import { PiHandPeaceLight } from "react-icons/pi";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import Works from "../components/Works";
-import LinkSide from '../components/LinkSide';
+import LinkSide from "../components/LinkSide";
 import EmailSide from "../components/EmailSide";
-import Contact from '../components/Contact';
+import Contact from "../components/Contact";
 
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
             Greetings! <PiHandPeaceLight />
           </h2>
           <h1>
-           <i>ŞAHİN UMUT YILMAZ</i>
+            <i>ŞAHİN UMUT YILMAZ</i>
           </h1>
           <p>FRONT-END DEVELOPER</p>
         </div>
@@ -32,7 +32,9 @@ const Home = () => {
       <Works />
       <LinkSide />
       <EmailSide />
-      <Contact id="contact"/>
+      <section id="contact">
+        <Contact />
+      </section>
     </>
   );
 };
