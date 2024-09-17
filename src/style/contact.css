@@ -29,3 +29,29 @@
     font-size: 1.17rem;
     margin-bottom: 1rem;
 }
+
+@media (max-width: 430px){
+  .video-container {
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .contact-content{
+    position: absolute;
+    bottom: -425%;
+    left: 32%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-content a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.73rem;
+  margin-bottom: 1rem;
+}
+
+.contact-content h1{
+  font-size: 1rem;
+}
+}

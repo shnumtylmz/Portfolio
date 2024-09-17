@@ -7,6 +7,7 @@ import Works from "../components/Works";
 import LinkSide from "../components/LinkSide";
 import EmailSide from "../components/EmailSide";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -33,8 +34,15 @@ const Home = () => {
       <LinkSide />
       <EmailSide />
       <section id="contact">
+        <div className="contact-content">
+          <h1>Contact Me</h1>
+          <a href="mailto:shnumtylmz@gmail.com">shnumtylmz@gmail.com</a>
+          <a href="">05442612121</a>
+        </div>
         <Contact />
       </section>
+
+      <Footer />
     </>
   );
 };

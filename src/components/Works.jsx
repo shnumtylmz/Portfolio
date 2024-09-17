@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import Data from "../data/data";
-import "../style/pageworks.css";
+import "../style/works.css";
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";

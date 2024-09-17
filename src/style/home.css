@@ -23,6 +23,14 @@
     margin-top: 100px;
 }
 
+.contact-content{
+  position: absolute;
+  bottom: -145%;
+  left: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
 .down-icon {
   font-size: 60px;
   transition: color;
@@ -51,5 +59,15 @@
   }
   to{
     transform: translateX(100px);
+  }
+}
+
+@media (max-width: 430px) {
+  .rotate-left{
+    animation: none;
+  }
+
+  .rotate-right{
+    animation: none;
   }
 }

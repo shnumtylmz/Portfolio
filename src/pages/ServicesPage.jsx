@@ -3,6 +3,7 @@ import LinkSide from "../components/LinkSide";
 import EmailSide from "../components/EmailSide";
 import "../style/services.css";
 import { FaArrowAltCircleDown } from "react-icons/fa";
+import Footer from '../components/Footer';
 
 const ServicesPage = () => {
   return (
@@ -71,6 +72,7 @@ const ServicesPage = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
