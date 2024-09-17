@@ -1,0 +1,37 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 250px 120px auto 120px;
+  }
+  
+  .card {
+    margin: 15px;
+    width: 300px;
+    height: 450px;
+    opacity: 0;
+    transform: translateY(100px) scale(0.95);
+    transition: opacity 1.2s ease-out, transform 1.2s ease-out;
+  }
+  
+  .card.show {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  
+  @keyframes autoShowAnimation {
+    from {
+      opacity: 0;
+      transform: translateY(100px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+  
+  .autoShow {
+    animation: autoShowAnimation 1.2s ease-out forwards;
+  }
+  

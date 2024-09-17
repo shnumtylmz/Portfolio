@@ -1,0 +1,41 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#navbar a{
+    display: inline-block;
+    animation: dropdown 1s forwards;
+    margin: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+@keyframes dropdown {
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.head-btn{
+    padding: 5px;
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.head-btn a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-side{
+    display: flex;
+    align-items: center;
+}

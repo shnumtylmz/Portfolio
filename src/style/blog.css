@@ -1,0 +1,4 @@
+.blog-content{
+    display: grid;
+    place-items: center;
+}

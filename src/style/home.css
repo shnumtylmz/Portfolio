@@ -1,0 +1,55 @@
+#home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  position: relative;
+}
+
+.homepage-img img {
+  height: 250px;
+  width: 200px;
+}
+
+.homepage-content {
+  width: 40%;
+  margin: 20px;
+}
+
+.home-down-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.down-icon {
+  font-size: 60px;
+  transition: color;
+}
+
+.rotate-left{
+  animation: moveleft 2s forwards;
+}
+
+@keyframes moveleft{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(-100px);
+  }
+}
+
+.rotate-right{
+  animation: moveright 2s forwards;
+}
+
+@keyframes moveright{
+  from{
+    transform: translateX(0);
+  }
+  to{
+    transform: translateX(100px);
+  }
+}
