@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import "../style/home.css";
-import image from "../assets/b.jpg";
+import image from "../assets/profile-pic.png";
 import { PiHandPeaceLight } from "react-icons/pi";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import Works from "../components/Works";
