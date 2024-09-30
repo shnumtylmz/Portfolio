@@ -6,6 +6,7 @@ import drumKit from '../assets/projectsimg/drumkit.png';
 import questionApp from '../assets/projectsimg/questionapp.png';
 import sportsCenter from '../assets/projectsimg/sportscenter.png';
 import starWars from '../assets/projectsimg/starwars.png';
+import libraryApp from '../assets/projectsimg/libraryApp.png';
 
 const data = [
     {
@@ -72,6 +73,14 @@ const data = [
         tools: "HTML, CSS, JavaScript, React",
         desc: "A dynamic sports center webpage built with HTML, CSS, and JavaScript. Explore various facilities, schedules, and services, all presented through a sleek and user-friendly interface. Perfect for sports enthusiasts looking to stay active and informed."
     },
+    {
+        id:9,
+        name: "Library App",
+        url : "https://patika-final-project-seven.vercel.app/",
+        img: libraryApp,
+        tools: "React",
+        desc: "This interactive library app allows users to search for books, borrow and return books, and view book statistics. Designed using React, this project demonstrates the integration of React components, state management, and API calls."
+    }
     
 ]
 
