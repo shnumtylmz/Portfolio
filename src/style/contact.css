@@ -16,13 +16,6 @@
     justify-content: center;
 }
 
-.contact-content{
-    position: absolute;
-    bottom: -145%;
-    display: flex;
-    flex-direction: column;
-}
-
 .contact-content a{
     text-decoration: none;
     color: black;
