@@ -44,6 +44,11 @@
   animation: moveleft 2s forwards;
 }
 
+.home-page-title-effect{
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.2);
+  font-size: 32px;
+}
+
 @keyframes moveleft{
   from{
     transform: translateX(0);
